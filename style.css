@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	background-color: #F7CAC9;
+	font-family: 'Roboto', Helvetica, san-serif;
+
+}
+
+.app {
+	display: flex;
+	width:100vw;
+	height:100vh;
+	flex-flow: column;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+
+}
+
+.lists {
+	display: flex;
+	flex:1;
+	width:100%;
+	margin-top:20px;
+	
+}
+
+.lists .list {
+	display: flex;
+	flex-flow:column;
+	flex:1;
+	width:100%;
+	min-width:200px;
+	max-width:350px;
+	height:100%;
+	min-height: 150px;
+
+	background-color: rgba(0,0,0,0.1);
+	margin: 0 10px;
+	padding: 8px;
+	transition: all 0.2s linear;
+}
+
+.lists .list .list-item{
+	background-color: #F7CAC9;
+	border-radius: 8px;
+	padding: 15px 20px;
+	text-align: center;
+	margin: 4px 0px;
+	font-size:18px;
+
+}
+
+.code{
+	/*background-color: rgba(0,0,0,0.2);*/
+	background-color: black;
+	display: flex;
+	flex-flow:column;
+	flex:1;
+	width:100%;
+	height:100%;
+	min-height: 150px;
+	font-style: italic;
+	margin: 0 10px;
+	padding: 8px;
+	transition: all 0.2s linear;
+	font-size:18px;
+	position: relative;
+	font-family: "Lucida Console";
+	color:white;
+	padding:10px;
+
+}
+
+.keys{
+	position:absolute;
+	bottom:20px;
+	right:20px;
+	cursor: pointer;
+}
+
+#finishbox{
+	
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  height:20px;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+

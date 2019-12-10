@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<body>
+		<div class="app">
+			<header>
+				<h1> BASH </h1>
+				<link rel="stylesheet" href="style.css"/>
+				<link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
+			</header>
+			<div class="lists">
+				<div class="list check"></div>
+				<div class="list check"></div>
+				<div class="list check"></div>
+				<div class="list check"></div>
+				<div class="list check"></div>
+				<div class="list check"></div>
+
+			</div>
+
+			<div class="lists">
+				<div class="list" style="max-width:50%;">
+					<div class="list-item" draggable="true" value="wc -c">Policz liczbę znaków</div>
+					<div class="list-item" draggable="true" value="sort">Posortuj plik</div>
+					<div class="list-item" draggable="true" value="cut">Wytnij tekst</div>
+					<div class="list-item" draggable="true" value="uniq">Usuń duplikaty</div>
+					<div class="list-item" draggable="true" value="uniq -c">Ponumeruj linie</div>
+					<div class="list-item" draggable="true" value="date">wyświetl datę</div>
+					<div class="list-item" draggable="true" value="input>">Pobierz dane z pliku <input type="text"></div>
+					<div class="list-item" draggable="true" value="input<">Zapisz dane do pliku <input type="text"> </div>
+				</div>
+				<div class="code" style="max-width:50%;"> 
+					<img src="setting.png" width="50px" height="50px" class="keys" onclick="generate()">
+				<div id="finishbox">
+					<span style="text-align:left;">Student:~<span>$</span>
+				</div>
+				</div>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
